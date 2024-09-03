@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: red;
+            animation-name: hellocss;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+
+        }
+        @keyframes hellocss{
+            25%  {background-color: yellow; transform: translate(80vh,80vh);  }
+            50% {background-color: green; transform: translateX(80vh);   }
+            75% {background-color: blue; transform: translateY(80vh);   }
+
+
+            
+
+
+
+            
+        }
+        .padd{
+            padding-top: 68vh;
+            font-size: 70px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="circle">
+    </div>
+    <div class="padd">
+        ____________________
+    </div>
+    
+</body>
+</html>
