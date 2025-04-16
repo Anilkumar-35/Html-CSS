@@ -1,0 +1,93 @@
+#border1{
+    border: 2px solid black;
+    width: 108px;
+}
+#border2{
+    border: 2px solid black;
+    width: 108px;
+}#border3{
+    border: 2px solid black;
+    width: 108px;
+    
+}#border4{
+    border: 2px solid black;
+    width: 108px;
+
+}#border5{
+    border: 2px solid black;
+    width: 108px;
+}#border6{
+    border: 2px solid black;
+    width: 108px;
+   
+}#border7{
+    border: 2px solid black;
+    width: 108px;
+   
+}#border8{
+    border: 2px solid black;
+    width: 108px;
+   
+}#border9{
+    border: 2px solid black;
+    width: 108px;
+
+}
+#button1{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}
+#button2{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}#button3{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}#button4{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}#button5{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}#button6{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}#button7{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}#button8{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}
+#button9{
+    height:100px ;
+    width: 95px;
+    font-size: 80px;
+}
+#winner{
+    font-size: 50px;
+    color: white;
+}
+#center{
+    margin-left: 450px;
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(32,33,34,0.7),rgba(23,34,33,0.1));
+    width: 340px;
+}
+#buu{
+    font-size: 30px;
+}
+#image{
+    background-image: linear-gradient(rgba(102, 107, 113, 0.7),rgba(87, 100, 99, 0.1)),url(panda.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}

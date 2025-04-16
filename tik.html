@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiktac</title>
+    <link rel="stylesheet" href="tik.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</head>
+<body id="image">
+   
+    <div class="container-fluied" >
+        <center><div id="winner"><h1 id="winner">Start</h1></div></center>
+    <div class="container" id="center">
+        <div class="row">
+            <div class="col-4" id="border1">
+                <input type="text" id="button1" onclick="myfunc1(); myfunc()" readonly>
+            </div>
+            <div class="col-4" id="border2">
+                <input type="text" id="button2" onclick="myfunc2(); myfunc()" readonly>
+            </div>
+             <div class="col-4" id="border3">
+                <input type="text" id="button3" onclick="myfunc3(); myfunc()" readonly>
+             </div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="border4">
+                <input type="text" id="button4"  onclick="myfunc4(); myfunc()" readonly>
+            </div>
+            <div class="col-4" id="border5" >
+                <input type="text" id="button5" onclick="myfunc5(); myfunc()" readonly>
+            </div>
+            <div class="col-4" id="border6">
+                <input type="text" id="button6" onclick="myfunc6(); myfunc()" readonly>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4" id="border7">
+                <input type="text" id="button7" onclick="myfunc7(); myfunc()" readonly  >
+            </div>
+            <div class="col-4" id="border8">
+                <input type="text" id="button8" onclick="myfunc8(); myfunc()" readonly>
+            </div>
+             <div class="col-4" id="border9">
+                <input type="text" id="button9" onclick="myfunc9(); myfunc()" readonly>
+             </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <center> <button onclick="reset()" id="buu">RESET</button> </center>
+    </div>
+</div>
+    
+
+
+    <script src="tik.js"></script>
+</body>
+</html>
